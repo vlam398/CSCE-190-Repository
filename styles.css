@@ -23,16 +23,13 @@ h1 {
     gap: 20px; /* Adjust the gap as needed */
 }
 
-
-
-
-
-
-
-
-
 /* Add styles for your other sections */
 .skills, .projects, .contact {
     padding: 15px;
     margin: 10px 0;
+}
+
+/* New class to make text bold */
+.bold-text {
+    font-weight: bold;
 }
