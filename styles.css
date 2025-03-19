@@ -1,0 +1,38 @@
+body {
+    background: #f8feff; /* Light blue background, you can change this */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+}
+
+h1 {
+    color: #6f7bfc; /* Purple-blue color, you can change this */
+    text-align: center;
+}
+
+/* Class for your about section */
+.about {
+    background: #6f7bfc; /* Match the h1 color */
+    padding: 5px; /* Thinner padding */
+    margin: 5px 0; /* Move the bar up */
+}
+
+/* Flexbox container for evenly spaced sections */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+
+
+
+
+
+
+
+
+/* Add styles for your other sections */
+.skills, .projects, .contact {
+    padding: 15px;
+    margin: 10px 0;
+}
